@@ -21,6 +21,7 @@ Compile the project and run it, enter a person's Name and address info into the 
 **Research**
 
 1. Define the following design principles: Singleton, Factory, Builder, Facade, Prototype
+
 **Singleton: it is a design principle that restricts an object to a single instance.**
 
 **Factory: creates an object without specifying the exact class.**
