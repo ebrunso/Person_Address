@@ -50,26 +50,24 @@ dp: Stands for Density Independent Pixels. Can be measured using Int, Double, or
 px: Stands for pixels. Can be measured using Int, Double, or Float. Example: 10px
 pt: Stands for 1/72 of an inch, accounting for screen size.
 in: Stands for inches, accounting for screen size.
-mm: Stands for Millimeters, accounting for screen size.
-**
+mm: Stands for Millimeters, accounting for screen size.**
 
 6. Describe what each section of the Android Platform arch. details.
-**
-System Apps: Core apps that allow the Android user to access email, SMS messaging, and any other apps that can be installed to the device. This is what allows the system to be fully customizable by the user.
+**System Apps: Core apps that allow the Android user to access email, SMS messaging, and any other apps that can be installed to the device. This is what allows the system to be fully customizable by the user.
 Java API Framework: Affords the Android OS to use many of its core features and apps by re-using this framework. Examples of the services include the view system, resource manager, notification manager, activity manager and content providers.
 Native C/C++ Libraries: Required for many Android core systems to run. Examples being ART and HAL.
 Android Runtime: Modern android versions use ART to run multiple virtual machines at a lower memory footprint.
 Hardware Abstraction Layer (HAL): Allows device hardware to interact with higher level software using library modules.
-Linux Kernel: The foundation of the Android architecture. Enables the use of key security features and allows device manufacturers to update the system Kernel.
-**
+Linux Kernel: The foundation of the Android architecture. Enables the use of key security features and allows device manufacturers to update the system Kernel.**
+
 
 7. What is reflection in JAVA?
 **Reflection is an API that allows you to get information or modify the behavior of constructors, methods, classes or interfaces at runtime.**
 
 8.  How does gradle work behind the scene.
 **Gradle has 3 build phases, the Initialization phase, configuration phase and execution phase.
-Initialization phase: Gradle will determine if the application is a single-project build or a multi-project build using the settings.gradle file. Afterwards, it will create an org.gradle.api.Project for each project identified.
+Initialization phase: Gradle will determine if the application is a single-project build or a multi-project build using the settings.gradle file. Afterwards, it will create an org.gradle.api.Project for each project identified.**
 
-Configuration phase: Gradle will execute the build scripts of the projects and build a Directed Acyclic Graph (DAG) for all task objects. 
+**Configuration phase: Gradle will execute the build scripts of the projects and build a Directed Acyclic Graph (DAG) for all task objects.** 
 
-Execution Phase: Gradle uses the DAG to determine which tasks need to be executed, and will execute them order.**
+**Execution Phase: Gradle uses the DAG to determine which tasks need to be executed, and will execute them order.**
