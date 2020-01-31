@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zip_margin">8dp</dimen>
+    <dimen name="firstname_margin">16dp</dimen>
+    <dimen name="lastname_margin">16dp</dimen>
+    <dimen name="street_address_margin">16dp</dimen>
+    <dimen name="city_margin">16dp</dimen>
+    <dimen name="state_margin">16dp</dimen>
+    <dimen name="margin_button">8dp</dimen>
+</resources>
